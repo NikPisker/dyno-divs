@@ -1,0 +1,53 @@
+.page-wrapper {
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.content-wrapper {
+    width: 100%;
+}
+
+.space-title {
+    width: 100%;
+    border-bottom: 3px solid black;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.group-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+    gap: 80px;
+}
+
+.group {
+    flex: 1;
+}
+
+.group-item {
+    border: 1px solid black;
+    position: relative;
+}
+
+.box-size {
+    position: absolute;
+    top: calc(50% - 9px);
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+.group-content {
+    margin-top: 24px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+    min-height: 400px;
+}
+
